@@ -16,7 +16,7 @@
 
 #scoreBox{
     position: absolute;
-    top: 9px;
+    top: 400px;
     right: 200px;
     font-size: 39px;
     font-weight: bold;
@@ -25,7 +25,7 @@
 
 #hiscoreBox{
     position: absolute;
-    top: 59px;
+    top: 450px;
     right: 140px;
     font-size: 39px;
     font-weight: bold;
@@ -43,20 +43,20 @@
 }
 
 .head{
-    background: linear-gradient(rgb(240, 124, 124), rgb(228, 228, 129));
+    background: linear-gradient(black, gray);
     border: 2px solid rgb(34, 4, 34); 
     transform: scale(1.02);
-    border-radius: 9px;
+    border-radius: 50px;
 }
 
 .snake{
-    background-color: purple;
+    background-color: green;
     border: .25vmin solid white;
     border-radius: 12px;
 }
 
 .food{
-    background: linear-gradient(red, purple);
+    background: linear-gradient(pink, red);
     border: .25vmin solid black;
-    border-radius: 8px;
+    border-radius: 20px;
 }
